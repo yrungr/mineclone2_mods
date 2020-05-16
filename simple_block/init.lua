@@ -1,12 +1,10 @@
-print("hej")
-minetest.register_node("simple_block:square", {
-    description = "simple_block",
+minetest.override_item("mcl_core:cobble", {
     tiles = {
-        "minetest_block.png",
-        "minetest_block.png",
-        "minetest_block.png",
-        "minetest_block.png",
-        "minetest_block.png",
-        "minetest_block.png"
+        "new_cobble.png",
+        "new_cobble.png",
+        "new_cobble.png",
+        "new_cobble.png",
+        "new_cobble.png",
+        "new_cobble.png",
     },
 })
